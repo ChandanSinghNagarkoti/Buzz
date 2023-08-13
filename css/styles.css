@@ -1,0 +1,1792 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}  
+:root{
+  font-size: 16px;
+}
+body {
+  border: #000 2px solid;
+   background-image: linear-gradient(45deg, #4284ff, #b48dff);
+}
+
+header {
+  width: 100%;
+  /* background-image: linear-gradient(176deg, #4284ff, #b48dff); */
+
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 1000;
+}
+
+header h1 {
+  position: relative;
+  left: 180px;
+  color: #fff;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.navlogo {
+  position: absolute;
+  right: 40px;
+}
+
+.navlogo i {
+  color: #fff;
+  font-size: 30px;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  background-color: #000;
+  width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  
+}
+
+.navlogo:hover {
+  background-color: #000;
+  width: 200px;
+}
+
+.navlogo:hover i {
+  margin-left: 160px;
+  margin-top: 10px;
+}
+
+.navlogo:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown .navlist {
+  list-style: none;
+  position: relative;
+}
+
+.dropdown ul>li {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.dropdown>ul>li>a {
+  padding: 50px 0;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  position: relative;
+  /* top: -60px; */
+}
+
+.home {
+  /* border: 2px solid black; */
+  /* position: relative;
+  background-image: linear-gradient(45deg, #4284ff, #b48dff); */
+  height: 812px;
+}
+
+.homepage {}
+
+.backimg {
+  position: absolute;
+  right: 0;
+  top: 150px;
+  
+}
+
+.backimg img {
+  width: 1100px;
+}
+
+.hometext {
+  font-size: 3.8rem;
+  color: #fff;
+  position: relative;
+  top: 140px;
+  left: 170px;
+  width: fit-content;
+}
+
+.texta {
+  font-weight: 100;
+  width: fit-content;
+  margin: 0;
+}
+
+.textb {
+  font-weight: 600;
+}
+
+.hometext hr {
+  border: 2px solid #fff;
+  margin-top: 50px;
+  width: 60%;
+}
+
+.hometext .para {
+  margin-top: 70px;
+}
+
+.hometext p {
+  margin-top: 10px;
+
+  font-size: 1.9rem;
+}
+
+.hometext .button {
+  margin: 0;
+  width: fit-content;
+}
+
+.button button {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 8px 35px 8px 35px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  border: 2px solid#fff;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.button:hover {}
+
+.section2 {
+  background-color: #e5e5e5;
+  position: relative;
+  top: 0;
+}
+
+.container2 {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.work {
+  /* border: 2px solid black; */
+  width: 30%;
+  height: 500px;
+  width: 350px;
+  background-color: #fff;
+  margin: 0 20px 0 20px;
+}
+
+.box {
+  /* border: 2px red solid; */
+  width: 100%;
+  height: 45%;
+  color: white;
+  top: 30px;
+  text-align: center;
+}
+
+.box h2 {
+  padding: 10px 0;
+  font-size: 5rem;
+}
+
+.box hr {
+  border: 5px solid #fff;
+  width: 85%;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.box h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  font-weight: 100;
+}
+
+#item1 {
+  background-image: linear-gradient(45deg, #69c9d8, #b48dff);
+}
+
+#item2 {
+  background-image: linear-gradient(45deg, #69c9d8, #b48dff);
+}
+
+#item3 {
+  background-image: linear-gradient(45deg, #69c9d8, #b48dff);
+}
+
+.work .text {
+  /* border: 2px solid black; */
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  font-style: italic;
+
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.more a {
+  font-size: 1.2rem;
+  background-color: #5c86ff;
+  text-decoration: none;
+  color: #fff;
+  padding: 9px 38px;
+  font-weight: 100;
+}
+
+.container3 {
+  background-color: white;
+  max-width: 100%;
+  height: 516px;
+}
+
+.container3 .layout3 {
+  width: 80%;
+  height: 508px;
+  /* border: 2px solid black; */
+  position: relative;
+  top: 90px;
+  margin: auto;
+}
+
+.layout3 .heading {
+  margin: auto;
+  width: 40%;
+
+  height: fit-content;
+}
+
+.layout3 .para {
+  margin: auto;
+  width: 40%;
+
+  max-height: fit-content;
+}
+
+.layout3 .heading {
+  width: fit-content;
+}
+
+.layout3 .heading h2 {
+  font-size: 3rem;
+  color: #4284ff;
+}
+
+.layout3 .heading::after {
+  content: "";
+  position: relative;
+  top: 30px;
+  display: block;
+  border: 3px solid #4284ff;
+  width: 150px;
+  margin: auto;
+}
+
+.layout3 .para {
+  width: 70%;
+}
+
+.layout3 .para p {
+  position: relative;
+  top: 60px;
+  word-spacing: 7px;
+  text-align: center;
+  font-size: 1.42rem;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+/* section4 */
+.container4 {
+  height: 780px;
+  background-image: linear-gradient(45deg,
+      rgb(233, 19, 197),
+      rgb(109, 109, 251));
+}
+
+.container4 .layout4 {
+  height: 588px;
+  /* border: 2px solid black; */
+  position: relative;
+  top: 10%;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container4 .layout4 .text,
+.img-logo {
+  height: 100%;
+  width: 50%;
+}
+
+.container4 .layout4 .text {
+  background-image: linear-gradient(45deg, #4284ff, #b48dff);
+  margin-top: 0;
+}
+
+.layout4 .text .heading {
+  color: white;
+  font-size: 2.5rem;
+  margin-left: 30px;
+  margin-top: 140px;
+}
+.layout4 .text .para{
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 1.3rem;
+  line-height: 30px;
+  margin-right: 30px;
+}
+.container4 .layout4 .img-logo{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container4 .img-logo .text-img{
+height: 50%;
+/* border: 2px solid black; */
+width: 50%;
+background-color: #fff;
+
+}
+
+.container4 .text-img .logo1 {
+  color: #4284ff;
+  margin: auto;
+  width: fit-content;
+  margin-top: 70px;
+}
+.container4 .text-img .logo2{
+  color: #4284ff;
+  margin: auto;
+  width: fit-content;
+  margin-top: 70px;
+}
+.container4 .text-img img{
+  height: 100%;
+}
+.container4  i{
+  font-size: 6rem;
+}
+.container4 .text-img .write h2{
+  width: fit-content;
+  font-size: 1.8rem;
+  color: #4284ff;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+
+.container4 .text-img .img{
+  overflow: hidden;
+}
+.container4 .text-img img{
+  width: 294px;
+  
+
+  /* height: 294px; */
+}
+.container4 .text-img .write .last{
+  width: fit-content;
+  font-size: 1.64rem;
+  color: #4284ff;
+  margin-left: 4px;
+
+}
+
+/* section5 */
+.container5{
+  background-color: #fff;
+  height: 1470px;
+}
+.team{
+  /* border: 2px black solid; */
+  width: 1185px;
+
+position: relative;
+top: 5vh;
+margin: auto  ;
+}
+.team .team-text{
+  /* border: 2px solid black; */
+  width: 65%;
+  margin:  auto;
+  position: relative;
+  top: 50px;
+}
+.team-text h2{
+  color: #4284ff;
+  font-size: 3.7rem;
+text-align: center;
+}
+.team-text p{
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+.team .main{
+  /* border: 2px solid black; */
+  margin: 100px auto;
+  width: 95%;
+  height: 1200px;
+  display: flex;
+  flex-flow: row wrap;
+  
+
+}
+.main .manager{
+  /* border: 2px solid black; */
+  width: 315px;
+  height: 410px ; 
+  margin: 0px 30px 40px 30px;
+}
+.manager .mimg{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 87%;
+}
+.mimg img{
+  width: 312px;
+  height: 355px;
+}
+.manager .name{
+ margin-top: 10px;
+ padding: 5px;
+}
+.name h2{
+  color: #4284ff;
+  padding: 2px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.name p{
+  text-align: center  ;
+  margin-top: 4px;
+  padding: 3px;
+  font-size: 1.2rem;
+
+}
+/* section6 */
+.container6{
+  background-image: linear-gradient(45deg, #62f6e9, #b48dff);
+  height: 500px;
+}
+.container6 .contant6
+{
+  width: 70%;
+  height: 66%;
+  /* border: #000 solid 2px; */
+  position: relative;
+  top: 18%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.contant6 .img6{
+  /* border: 2px solid black; */
+  width: 33.33%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.contant6 .img6 img{
+  width: 500px;
+  height: 100%;
+}
+.contant6 .text6{
+  /* border: 2px solid black; */
+  width: 33.33%;
+  height: 100%;
+  background-color:#f2f2f2;
+}
+.text6 h3{
+  position: relative;
+  top: 55px ;
+  margin-left: 25px;
+  font-size: 2.3rem;
+}
+.text6 p{
+ position: relative;
+ top: 55px;
+  margin-left: 25px;
+  margin-right: 30px;
+  font-size: 1.3rem;
+  word-spacing: 3px;
+}
+/* section7 */
+.container7{
+  height: 800px;
+  background-color: #fff;
+}
+.container7 .contact{
+  /* border: black 2px solid; */
+  width: 720px;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  top: 8% ;
+  background-color: #4284ff;
+
+}
+.contact .form-text{
+  /* background-color: #000 2px solid ; */
+  width: fit-content;
+
+  margin: auto;
+  position: relative;
+  top: 100px;
+  color: #fff;
+  text-align: center;
+
+}
+.form-text h3{
+  font-size: 2.5rem;
+  padding: 3px;
+}
+.form-text p{
+  margin-top: 15px;
+  font-size: 1.4rem;
+}
+.form-text .para3{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.form-text .para3:hover{
+  opacity: 0.3;
+}
+.contact-form{
+  width: 80%;
+  /* border: #000 2px solid; */
+  margin:  120px auto;
+
+
+}
+::placeholder{
+  color: #000;
+  font-size: 1.2rem;
+  opacity: 0.4;
+}
+
+.contact-form form input{
+  display: block;
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+.contact-form form input:hover{
+  background-color:transparent;
+ 
+}
+.contact-form form textarea{
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+
+}
+.contact-form form textarea:hover{
+  background-color: transparent ;
+  
+}
+
+.contact-form form button{
+  display: block;
+  font-size: 1.6rem;
+  padding: 3px;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: #b48dff;
+  border: none;
+  color: white;
+}
+
+/* section8 */
+.container8{
+  height: 700px;
+  background-image: linear-gradient(-45deg, #ec6693, #b48dff);
+}
+
+.container8 .layout8{
+  /* border: 2px solid black; */
+  width: 1165px;
+  height: 90%;
+  position: relative;
+  top: 5%;
+  margin: auto;
+}
+.layout8 .text8{
+  /* border: 2px solid black; */
+  width: fit-content;
+  margin:0 auto ;
+  position: relative;
+  top: 20px;
+  
+  width: 680px;
+
+
+}
+.layout8 .text8 h3{
+  text-align: center;
+  color: #fff;
+  font-size: 2.7rem;
+  padding: 5px;
+}
+.layout8 .text8 p{
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 5px;
+  margin-top: 20px;
+}
+.layout8 .imgs8{
+  /* border: 2px solid black; */
+  width: 1185px;
+  margin:60px  auto;
+  /* height: 400px; */
+  display: flex;
+  flex-flow: row wrap;
+
+
+}
+.imgs8 .pic8{
+  /* border: 2px solid black; */
+  width: 319px;
+  /* height: 100%;  */
+  overflow: hidden;
+  margin: 0 35px 0 35px ;
+  
+}
+.pic8 img{
+  width: 450px;
+  height: 340px;
+  margin-right: 0;
+}
+
+/* footer */
+
+footer{
+  background-color: #292c33;
+  /* height: 40vh; */
+}
+.footer-class{
+  /* background-color: #62f6e9; */
+  height: 70%;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-flow: row wrap ;
+  
+}
+.text9{
+  /* border: 2px solid white; */
+  width: 25%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  
+}
+.text9 h4{
+  margin-top: 50px;
+  font-size: 2.1rem;
+}
+.text9 p{
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+footer .logos{
+  width: fit-content;
+  margin: auto;
+  margin-top: 50px;
+}
+.logos a{
+  padding: 10px;
+  text-decoration: none;
+
+}
+.logos a i{
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.copyright{
+  background-color: #5e5e5e;
+  margin-top: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.copyright h4{
+  color: #fff;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+@media (max-width:1370px) and (min-width:1200px){
+  
+  .home{
+    height:920px;
+  }.home .homepage .backimg{
+    top:270px;
+  }
+  .home .homepage .backimg img{
+    width:990px;
+  }  
+  
+  .container4 {
+    height: 700px;
+  }
+  .container4 .layout4{
+      height:550px;
+    }
+    .container4 .layout4 .img{
+      height: 275px;
+    }
+
+  }
+  @media (max-width:1200px) and (min-width:1000px){
+    :root{
+      font-size: 15px;
+    }
+  
+      header h1{
+        left: 10px;
+      }
+      .home{
+        overflow: hidden;
+      }
+
+      .home .homepage .hometext{
+        top: 100px  ;
+      }
+
+      .home .homepage .backimg{
+        width: 800px;
+        overflow: hidden;
+      }
+      
+
+      .container2 .work{
+        width: 27%;
+        height: 450px;
+      }
+
+      .container2 .work .text{
+        margin-top: 10px;
+      }
+
+      .container3 .layout3 .heading h2{
+        font-size: 2.76rem;
+        
+      }
+      .container3 .layout3 .para{
+        width: 90%;
+      }
+      
+
+      .container4 {
+        height: 555px;
+      }
+      .container4 .layout4{
+          height:430px;
+        }
+       .container4 .layout4 .img{
+          height: 215px;
+       }
+       .container4 .layout4 .img img{
+        height: 215px;
+        width: 230px;
+       }
+       .container4 .layout4 .text .heading{
+        margin-top: 80px;
+       }
+       .container4 .layout4 .img-logo .logo1{
+        margin-top: 40px;
+       }
+       .container4 .layout4 .img-logo .logo2{
+        margin-top: 40px;
+       }
+
+       
+       .container5{
+        height: 1300px;
+       }
+      .container5 .team{
+        width: 1000px;
+       }
+       .container5 .team .main{
+        margin: 60px auto;
+        width: 90%;
+        height: 950px;
+       }
+       .container5 .team .main .manager{
+        width: 250px;
+        margin: 20px 25px 10px 25px;
+        height: 400px;
+       }
+       .container5 .team .main .manager img{
+        width: 250px;
+        height: 300px;
+       
+       }
+       .container5 .team .main .manager .name{
+        margin-top: 25px;
+       }
+  
+       .container8 .layout8{
+        width: 1000px;
+       }
+       .container8 .layout8 .imgs8{
+        width: 1000px;
+       }
+       .container8 .layout8 .pic8{
+        margin: 0 7px 0 7px;       }
+
+  
+    }
+    @media (max-width:1000px) and (min-width:770px){
+      :root{
+        font-size: 14px;
+      }
+      header h1{
+        left: 10px;
+      }
+      .home{
+        height: 695px;
+      }
+
+      .home .homepage .hometext{
+        top: 50px  ;
+        left: 10px;
+      }
+      .home .homepage .hometext hr{
+        width: 90%;
+        margin-top: 30px;
+      }
+      .home .homepage .hometext .para{
+        margin-top: 40px;
+      }
+
+      .home .homepage .backimg{
+        width: 600px;
+        top: 300px;
+        
+      }
+      .home .homepage .backimg img{
+        width: 600px;
+        
+        
+      }
+      
+
+      .container2 .work{
+        width: 30%;
+        height: 462px;  
+        margin: 0px 10px 0 10px;
+      }
+      .container2 .work .box{
+       height: 200px;
+      
+      }
+      .container2 .work .box h2{
+        font-size: 4rem;
+      }
+      .container2 .work .box hr{
+        width: 80%;
+      }
+      .container2 .work .text{
+        margin-top: 10px;
+      }
+
+         .container3{
+          height: 430px;
+         }
+      .container3 .layout3{
+        width: 100%;
+      }
+      
+      .container3 .layout3 .para{
+        width: 90%;
+      }
+      
+
+      .container4 {
+        height: 1300px;
+      }
+      .container4 .layout4{
+          height:auto;
+          width: 90%;
+          top: 8%;
+        }
+      .container4 .layout4 .text{
+        width: 100%;
+        height: 500px;
+      }
+      .container4 .layout4 .img-logo{
+        width: 100%;
+        height: 590px;
+      }
+       .container4 .layout4 .text-img{
+          height: 50%;
+          width: 50%;
+       }
+       .container4 .layout4 .img{
+      width: 100%;
+      height: 100%;
+     }
+       .container4 .layout4 .img img{
+        height: 100%;
+        width: 100%;
+       }
+       .container4 .layout4 .text .heading{
+        margin-top: 110px;
+       }
+       .container4 .layout4 .text .para{
+        margin-top: 20px;
+        word-spacing: 5px;
+       }
+       .container4 .layout4 .img-logo .logo1{
+        margin-top: 70px;
+       }
+       .container4 .layout4 .img-logo .logo2{
+        margin-top: 70px;
+       }
+      
+
+       .container5{
+        height: 1650px;
+       }
+      .container5 .team{
+        width: 770px;
+       }
+       .container5 .team .team-text{
+        width: 90%;
+       }
+       .container5 .team .main{
+        margin: 80px auto;
+        width: 90%;
+        height: 950px;
+       }
+       .container5 .team .main .manager{
+        width: 250px;
+        margin: 20px 48px 10px 48px;
+        height: 400px;
+       }
+       .container5 .team .main .manager img{
+        width: 250px;
+        height: 300px;
+       
+       }
+       .container5 .team .main .manager .name{
+        margin-top: 25px;
+       }
+       .container6 .contant6{
+        width: 90%;
+       }
+       .container6 .contant6 .text6 h3{
+        top: 30px;
+       }
+
+
+       .container8{
+        height: 600px;
+       }
+       .container8 .layout8{
+        width: 770px;
+       }
+       .container8 .layout8 .imgs8{
+        width: 770px;
+        margin-top: 100px;
+       }
+       .container8 .layout8 .pic8{
+        width: 220px;
+        height: 220px;
+        margin: 0 18px 0 18px;       }
+
+
+
+        footer .footer-class .text9{
+          width: 50%;
+          height: 200px;
+          margin-top: 30px;
+        }      
+    }
+
+    
+    @media (max-width:770px) and (min-width:580px){
+      :root{
+        font-size: 11px;
+      }
+      header h1{
+        left: 10px;
+      }
+      .home{
+        height: 695px;
+      }
+
+      .home .homepage .hometext{
+        top: 50px  ;
+        left: 10px;
+        width: 570px;
+      }
+      .home .homepage .hometext hr{
+        width: 90%;
+        margin-top: 30px;
+      }
+      .home .homepage .hometext .para{
+        margin-top: 40px;
+      }
+
+      .home .homepage .backimg{
+        width: 600px;
+        top: 300px;
+        
+      }
+      .home .homepage .backimg img{
+        width: 600px;
+        
+        
+      }
+      
+
+      .container2 .work{
+        width: 500px;
+        height: 400px;  
+        margin: 0px 10px 45px 10px;
+      }
+      .container2 .work .box{
+       height: 200px;
+      
+      }
+      .container2 .work .box h2{
+        font-size: 6rem;
+      }
+      .container2 .work .box h3{
+        font-size: 3rem;
+      }
+      .container2 .work .box hr{
+        width: 70%;
+        margin: auto;
+      }
+      .container2 .work .text{
+        margin-top: 10px;
+      }
+      .container2 .work .more a{
+        font-size: 2rem;
+      }
+
+         .container3{
+          height: 430px;
+         }
+      .container3 .layout3{
+        width: 100%;
+        top: 60px;
+      }
+      
+      .container3 .layout3 .para{
+        width: 95%;
+     
+      }
+      .container3 .layout3 .para p{
+       font-size: 1.7rem;
+     
+      }
+      
+
+      .container4 {
+        height: 2400px;
+      }
+      .container4 .layout4{
+          height:auto;
+          width: 90%;
+          top: 6%;
+        }
+      .container4 .layout4 .text{
+        width: 100%;
+        height: 500px;
+      }
+      .container4 .layout4 .img-logo{
+        width: 100%;
+        height: 590px;
+      }
+       .container4 .layout4 .text-img{
+          height: 400px;
+          width: 100%;
+       }
+
+       .container4 .layout4 #text-img3{
+      
+        position: relative;
+        top: 400px;
+     }
+     .container4 .layout4 #text-img4{
+      
+      position: relative;
+      top: -401px;
+   }
+       .container4 .layout4 .img{
+      width: 100%;
+      height: 100%;
+     }
+       .container4 .layout4 .img img{
+        height: 100%;
+        width: 100%;
+       }
+       .container4 .layout4 .text .heading{
+        margin-top: 110px;
+        font-size: 3rem;
+       }
+       .container4 .layout4 .text .para{
+        margin-top: 20px;
+        word-spacing: 5px;
+       }
+       .container4 .layout4 .text .para p{
+        font-size: 1.7rem;
+       }
+       .container4 .layout4 .img-logo .logo1{
+        margin-top: 90px;
+    
+       }
+       .container4 .layout4 .img-logo .logo2{
+        margin-top: 90px;
+        position: relative;
+       
+       }
+       .container4 .layout4 .img-logo i{
+        font-size: 11rem;
+       }
+       .container4  .layout4 .write h2{
+        font-size: 3.8rem;
+       }
+      
+
+       .container5{
+        height: 4900px;
+       }
+      .container5 .team{
+        width: 580px;
+       }
+       .container5 .team .team-text{
+        width: 100%;
+       }
+       .container5 .team .main{
+        margin: 80px auto;
+        width: 90%;
+        height: 950px;
+       }
+       .container5 .team .main .manager{
+        width: 500px;
+        margin: 20px 10px 40px 10px;
+        height: 700px;
+       }
+       .container5 .team .main .manager img{
+        width: 100%;
+        height: 100%;
+       
+       }
+       .container5 .team .main .manager .mimg{
+        height: 80%;
+        width: 100%;
+       }
+       .container5 .team .main .manager .name{
+        margin-top: 15px;
+       }
+       .container5 .team .main .manager .name h2{
+        font-size: 2.6rem;
+       }
+       .container5 .team .main .manager .name p{
+        font-size: 2.2rem;
+       }
+
+      .container6{
+        height: 1200px;
+      }
+      .container6 .contant6{
+        height: 1100px;
+        width: 95%;
+        top: 5%;
+      }
+      .container6 .contant6 .img6{
+        width: 100%;
+        height: 450px;
+      }
+      .container6 .contant6 .img6 img{
+        width: 100%;
+      }
+      .container6 .contant6 .text6{
+        width: 100%;
+        height: 200px;
+      }
+       
+
+       .container7 .contact{
+          width: 580px;
+       }
+
+
+       .container8{
+        height: 1500px;
+       }
+       .container8 .layout8{
+        width: 580px;
+       }
+       .container8 .layout8 .text8{
+        width: 580px;
+       }
+       .container8 .layout8 .imgs8{
+        width: 580px;
+        margin-top: 100px;
+       }
+       .container8 .layout8 .pic8{
+        width: 77%;
+        height: 350px;
+        margin: 0px 66px 45px 66px;
+        
+          }
+
+
+
+        footer .footer-class .text9{
+          width: 50%;
+          height: 200px;
+          margin-top: 30px;
+        }  
+    }
+
+    @media (max-width:580px) and (min-width:425px){
+      :root{
+        font-size: 9px;
+      }
+      header h1{
+        left: 10px;
+      }
+      .home{
+        height: 695px;
+      }
+      
+
+      .home .homepage .hometext{
+        top: 50px  ;
+        left: 45px;
+        width: 380px;
+      }
+      .home .homepage .hometext hr{
+        width: 90%;
+        margin-top: 30px;
+      }
+      .home .homepage .hometext .para{
+        margin-top: 40px;
+      }
+
+      .home .homepage .backimg{
+        width: 460px;
+        top: 400px;
+        right: 0;
+        
+      }
+      .home .homepage .backimg img{
+        width: 100%;
+        
+        
+      }
+      
+
+      .container2 .work{
+        width: 500px;
+        height: 400px;  
+        margin: 0px 10px 45px 10px;
+      }
+      .container2 .work .box{
+       height: 200px;
+      
+      }
+      .container2 .work .box h2{
+        font-size: 6rem;
+      }
+      .container2 .work .box h3{
+        font-size: 3rem;
+      }
+      .container2 .work .box hr{
+        width: 70%;
+        margin: auto;
+      }
+      .container2 .work .text{
+        margin-top: 10px;
+      }
+      .container2 .work .more a{
+        font-size: 2rem;
+      }
+
+         .container3{
+          height: 430px;
+         }
+      .container3 .layout3{
+        width: 100%;
+        top: 60px;
+        height: 330px;
+      }
+      
+      .container3 .layout3 .para{
+        width: 95%;
+     
+      }
+      .container3 .layout3 .para p{
+       font-size: 1.7rem;
+     
+      }
+      
+
+      .container4 {
+        height: 2200px;
+      }
+      .container4 .layout4{
+          height:auto;
+          width: 90%;
+          top: 2%;
+        }
+      .container4 .layout4 .text{
+        width: 100%;
+        height: 500px;
+      }
+      .container4 .layout4 .img-logo{
+        width: 100%;
+        height: 590px;
+      }
+       .container4 .layout4 .text-img{
+          height: 400px;
+          width: 100%;
+       }
+
+       .container4 .layout4 #text-img3{
+      
+        position: relative;
+        top: 400px;
+     }
+     .container4 .layout4 #text-img4{
+      
+      position: relative;
+      top: -401px;
+   }
+       .container4 .layout4 .img{
+      width: 100%;
+      height: 100%;
+     }
+       .container4 .layout4 .img img{
+        height: 100%;
+        width: 100%;
+       }
+       .container4 .layout4 .text .heading{
+        margin-top: 110px;
+        font-size: 3rem;
+       }
+       .container4 .layout4 .text .para{
+        margin-top: 20px;
+        word-spacing: 5px;
+       }
+       .container4 .layout4 .text .para p{
+        font-size: 1.7rem;
+       }
+       .container4 .layout4 .img-logo .logo1{
+        margin-top: 90px;
+    
+       }
+       .container4 .layout4 .img-logo .logo2{
+        margin-top: 90px;
+        position: relative;
+       
+       }
+       .container4 .layout4 .img-logo i{
+        font-size: 11rem;
+       }
+       .container4  .layout4 .write h2{
+        font-size: 3.8rem;
+       }
+      
+
+       .container5{
+        height: 3900px;
+       }
+      .container5 .team{
+        width: 425px;
+       }
+       .container5 .team .team-text{
+        width: 100%;
+       }
+       .container5 .team .main{
+        margin: 80px auto;
+        width: 90%;
+        height: 950px;
+       }
+       .container5 .team .main .manager{
+        width: 425px;
+        margin: 20px 10px 40px 10px;
+        height: 540px;
+       }
+       .container5 .team .main .manager img{
+        width: 100%;
+        height: 100%;
+       
+       }
+       .container5 .team .main .manager .mimg{
+        height: 80%;
+        width: 100%;
+       }
+       .container5 .team .main .manager .name{
+        margin-top: 15px;
+       }
+       .container5 .team .main .manager .name h2{
+        font-size: 2.6rem;
+       }
+       .container5 .team .main .manager .name p{
+        font-size: 2.2rem;
+       }
+
+      .container6{
+        height: 1000px;
+      }
+      .container6 .contant6{
+        height: 880px;
+        width: 95%;
+        top: 5%;
+      }
+      .container6 .contant6 .img6{
+        width: 100%;
+        height: 360px;
+      }
+      .container6 .contant6 .img6 img{
+        width: 100%;
+      }
+      .container6 .contant6 .text6{
+        width: 100%;
+        height: 160px;
+      }
+       
+
+       .container7 .contact{
+          width: 80%;
+          height: 670px;
+       }
+
+
+       .container8{
+        height: 1500px;
+       }
+       .container8 .layout8{
+        width: 425px;
+       }
+       .container8 .layout8 .text8{
+        width: 425px;
+       }
+       .container8 .layout8 .imgs8{
+        width: 425px;
+        margin-top: 100px;
+       }
+       .container8 .layout8 .pic8{
+        width: 77%;
+        height: 350px;
+        margin: 0px 66px 45px 66px;
+        
+          }
+
+
+
+        footer .footer-class .text9{
+          width: 50%;
+          height: 200px;
+          margin-top: 30px;
+        }  
+
+
+    }
+
+    @media(max-width:425px) and (min-width:250px){
+
+      :root{
+        font-size: 7px;
+      }
+      header h1{
+        left: 10px;
+      }
+      .home{
+        height: 460px;
+      }
+      
+
+      .home .homepage .hometext{
+        position: static;
+        margin: auto;
+      
+       text-align: center ;
+        width: 240px;
+      }
+      .home .homepage .hometext hr{
+        width: 90%;
+        margin-top: 20px;
+      }
+      .home .homepage .hometext .para{
+        margin-top: 10px;
+      }
+
+      .home .homepage .backimg{
+        width: 250px;
+        top: 300px;
+        right: 0;
+        z-index: -1;
+        
+      }
+      .home .homepage .backimg img{
+        width: 100%;
+        
+        
+      }
+      
+
+      .container2 .work{
+        width:250px;
+        height: 450px;  
+        margin: 0px 10px 45px 10px;
+      }
+      .container2 .work .box{
+       height: 170px;
+      
+      }
+      .container2 .work .box h2{
+        font-size: 6rem;
+      }
+      .container2 .work .box h3{
+        font-size: 3rem;
+      }
+      .container2 .work .box hr{
+        width: 70%;
+        margin: auto;
+      }
+      .container2 .work .text{
+        margin-top: 10px;
+      }
+      .container2 .work .more a{
+        font-size: 2rem;
+      }
+
+         .container3{
+          height: 500px;
+         }
+      .container3 .layout3{
+        width: 100%;
+        top: 60px;
+        height: 330px;
+      }
+      
+      .container3 .layout3 .para{
+        width: 96%;
+     
+      }
+      .container3 .layout3 .para p{
+       font-size: 1.7rem;
+     
+      }
+      
+
+      .container4 {
+        height: 1740px;
+      }
+      .container4 .layout4{
+          height:auto;
+          width: 90%;
+          top: 2%;
+        }
+      .container4 .layout4 .text{
+        width: 100%;
+        height: 450px;
+      }
+      .container4 .layout4 .img-logo{
+        width: 100%;
+        height: 1208px;
+      }
+       .container4 .layout4 .text-img{
+          height: 300px;
+          width: 100%;
+       }
+
+       .container4 .layout4 #text-img3{
+      
+        position: relative;
+        top: 297px;
+     }
+     .container4 .layout4 #text-img4{
+      
+      position: relative;
+      top: -305px;
+   }
+       .container4 .layout4 .img{
+      width: 100%;
+      height: 100%;
+     }
+       .container4 .layout4 .img img{
+        height: 100%;
+        width: 100%;
+       }
+       .container4 .layout4 .text .heading{
+        margin-top: 20px;
+        font-size: 3rem;
+       }
+       .container4 .layout4 .text .para{
+        margin-top: 20px;
+        word-spacing: 5px;
+       }
+       .container4 .layout4 .text .para p{
+        font-size: 1.7rem;
+       }
+       .container4 .layout4 .img-logo .logo1{
+        margin-top: 90px;
+    
+       }
+       .container4 .layout4 .img-logo .logo2{
+        margin-top: 90px;
+        position: relative;
+       
+       }
+       .container4 .layout4 .img-logo i{
+        font-size: 11rem;
+       }
+       .container4  .layout4 .write h2{
+        font-size: 3.8rem;
+       }
+      
+
+       .container5{
+        height: 2500px;
+       }
+      .container5 .team{
+        width: 250px;
+       }
+       .container5 .team .team-text{
+        width: 100%;
+       }
+       .container5 .team .main{
+        margin: 80px auto;
+        width: 90%;
+        height: 950px;
+       }
+       .container5 .team .main .manager{
+        width: 205px;
+        margin: 20px 10px 40px 10px;
+        height: 300px;
+       }
+       .container5 .team .main .manager img{
+        width: 100%;
+        height: 100%;
+       
+       }
+       .container5 .team .main .manager .mimg{
+        height: 80%;
+        width: 100%;
+       }
+       .container5 .team .main .manager .name{
+        margin-top: 15px;
+       }
+       .container5 .team .main .manager .name h2{
+        font-size: 2.6rem;
+       }
+       .container5 .team .main .manager .name p{
+        font-size: 2.2rem;
+       }
+
+      .container6{
+        height: 550px;
+      }
+      .container6 .contant6{
+        height: 501px;
+        width: 95%;
+        top: 5%;
+      }
+      .container6 .contant6 .img6{
+        width: 100%;
+        height: 200px;
+      }
+      .container6 .contant6 .img6 img{
+        width: 100%;
+      }
+      .container6 .contant6 .text6{
+        width: 100%;
+        height: 100px;
+      }
+      .container6 .contant6 .text6 h3{
+        top:0;
+
+      }
+      .container6 .contant6 .text6 p{
+        top:3px;
+        
+      }
+       
+
+       .container7 .contact{
+          width: 90%;
+          height: 700px;
+       }
+
+
+       .container8{
+        height: 200px;
+       }
+       .container8 .layout8{
+        width: 250px;
+        top: 40px;
+        height: 150px;
+        overflow: hidden;
+
+       }
+       .container8 .layout8 .text8{
+        width: 250px;
+        top: 0;
+       }
+       
+       .container8 .layout8 .pic8{
+        width: 77%;
+        height: 350px;
+        margin: 0px 66px 45px 66px;
+        
+          }
+
+          .container8 .layout8 .imgs8{
+            position: absolute;
+            opacity: 1;
+            visibility: hidden;
+          }
+          
+
+
+
+        footer .footer-class .text9{
+          width: 50%;
+          height: 100px;
+          margin-top: 30px;
+        }  
+
+    }
+
