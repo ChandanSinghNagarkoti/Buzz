@@ -849,13 +849,16 @@ footer .logos{
         margin: 20px 25px 10px 25px;
         height: 400px;
        }
+       .container5 .team .main .manager .mimg{
+        height: 75%;
+       }
        .container5 .team .main .manager img{
         width: 250px;
         height: 300px;
        
        }
        .container5 .team .main .manager .name{
-        margin-top: 25px;
+        margin-top: 10px;
        }
   
        .container8 .layout8{
@@ -997,13 +1000,16 @@ footer .logos{
         margin: 20px 48px 10px 48px;
         height: 400px;
        }
+       .container5 .team .main .manager .mimg{
+        height: 75%;
+       }
        .container5 .team .main .manager img{
         width: 250px;
         height: 300px;
        
        }
        .container5 .team .main .manager .name{
-        margin-top: 25px;
+        margin-top: 10px;
        }
        .container6 .contant6{
         width: 90%;
